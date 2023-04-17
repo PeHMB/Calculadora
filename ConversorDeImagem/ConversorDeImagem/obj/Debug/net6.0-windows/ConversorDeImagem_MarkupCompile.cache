@@ -1,5 +1,5 @@
 ﻿ConversorDeImagem
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\2021102020073\Documents\Conversor-De-Imagem\ConversorDeImagem\ConversorDeImagem\App.xaml
 11407045341
 
-51466715026
+3-1233169557
 194101785492
 MainWindow.xaml;
 
-False
+True
 
