@@ -7,14 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="AliceBlue" Margin="0,0,-39,0" Width="NaN">
-        <GroupBox Background="White" x:Name="SelecionarImagem" Header="Selecionar Imagem" Height="NaN" Margin="30,43,470,23" Width="NaN">
-            <ListBox Margin="0,0,85,0" Width="NaN">
+        <StackPanel>
+            <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,0,0,0"/>
+            
 
-            </ListBox>
-
-
-
-        </GroupBox>
+        </StackPanel>
 
         <GroupBox Background="White" x:Name="ConverterImagemPara" Header="Selecionar Imagem" Height="NaN" Margin="420,43,10,23" Width="NaN">
             <Label Content="Pasta de Destino" HorizontalAlignment="Left" Margin="106,0,0,0" Height="81" Width="149"/>
