@@ -1,0 +1,5 @@
+C:\Users\2021102020073\Documents\Conversor-De-Imagem\Conversor de Imagem 2\Conversor de Imagem 2\obj\Debug\net6.0-windows\Conversor de Imagem 2.csproj.AssemblyReference.cache
+C:\Users\2021102020073\Documents\Conversor-De-Imagem\Conversor de Imagem 2\Conversor de Imagem 2\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\2021102020073\Documents\Conversor-De-Imagem\Conversor de Imagem 2\Conversor de Imagem 2\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\2021102020073\Documents\Conversor-De-Imagem\Conversor de Imagem 2\Conversor de Imagem 2\obj\Debug\net6.0-windows\Conversor de Imagem 2_MarkupCompile.cache
+C:\Users\2021102020073\Documents\Conversor-De-Imagem\Conversor de Imagem 2\Conversor de Imagem 2\obj\Debug\net6.0-windows\Conversor de Imagem 2_MarkupCompile.lref
