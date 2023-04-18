@@ -1,0 +1,55 @@
+﻿<Window x:Class="Calculadora.Janelas.Calculo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculadora.Janelas"
+        mc:Ignorable="d"
+        Background="#FFFFEEEE"
+        Title="Calculo" Height="576" Width="483">
+
+    <Grid Height="560" Background="#fff" VerticalAlignment="Bottom">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="416*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel HorizontalAlignment="Left" Height="237" Margin="187,202,0,0" VerticalAlignment="Top" Width="210" Grid.Column="1">
+            <Button x:Name="btMultiplicacao" Content="Multiplicação" Height="54" Width="140" Click="btMultiplicacao_Click" FontFamily="Arial" FontSize="24" Background="#fefefe" RenderTransformOrigin="0.495,0.663"/>
+            <Button x:Name="btSoma" Content="Soma" Height="54" Width="138" Click="btSoma_Click" FontFamily="Arial" FontSize="24" Background="#fefefe"/>
+            <Button x:Name="btRaiz" Content="Raiz" Height="54" Width="140" Click="btRaiz_Click" FontFamily="Arial" FontSize="24" Background="#fefefe"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="167" Margin="175,35,0,0" VerticalAlignment="Top" Width="234" Grid.Column="1">
+            <Button x:Name="btDivisao" Content="Divisão" RenderTransformOrigin="8.937,1.412" Height="54" Width="136" Click="btDivisao_Click" FontFamily="Arial" FontSize="24" Background="#fefefe"/>
+            <Button x:Name="btSubtracao" Content="Subtração" Height="54" Width="134" Click="btSubtracao_Click" RenderTransformOrigin="1.733,-0.836" FontFamily="Arial" FontSize="24" Background="#fefefe">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="0.434"/>
+                        <RotateTransform Angle="-0.263"/>
+                        <TranslateTransform Y="1.707"/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button x:Name="btPotencia" Content="Potência" Height="53" Width="136" Click="btPotencia_Click" FontFamily="Arial" FontSize="24" Background="#fefefe"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="242" Margin="42,30,0,0" VerticalAlignment="Top" Width="163" Grid.ColumnSpan="2">
+            <Label Content="  Calculadora" FontFamily="Arial" FontSize="30" RenderTransformOrigin="0.5,0.5" Height="70" Width="173">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.326"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-0.421"/>
+                    </TransformGroup>
+
+                </Label.RenderTransform>
+            </Label>
+            <Label Content="Valor 1: " FontFamily="Arial" FontSize="18"/>
+            <TextBox x:Name="txtValor1" TextWrapping="Wrap" Text="" Width="137" Background="#fefefe" Height="18" RenderTransformOrigin="1.093,-1.999"/>
+            <Label Content="Valor 2: " FontFamily="Arial" FontSize="18"/>
+            <TextBox x:Name="txtValor2" TextWrapping="Wrap" Text="" Width="150" Background="White" Height="18"/>
+            <Label Content="Resultado: " Width="397" FontFamily="Arial" FontSize="18"/>
+            <TextBox x:Name="txtResult" TextWrapping="Wrap" Text="" Width="149" TextChanged="txtResult_TextChanged" Background="#fefefe" Height="32"/>
+        </StackPanel>
+    </Grid>
+</Window>
